@@ -1,0 +1,36 @@
+/* Fuentes */
+
+@font-face {
+    font-family: "FrancoisOne";
+    src: url("../fonts/FrancoisOne-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: "FrancoisOne";
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.info__text {
+    text-align: center;
+    flex-grow: 3;
+    justify-content: center;
+    display: flex;
+    margin: 15rem;
+    font-size: 1.5rem;
+
+}
+
+.hero__info {
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

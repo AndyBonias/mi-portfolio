@@ -1,0 +1,65 @@
+/* Fuentes */
+
+@font-face {
+    font-family: "FrancoisOne";
+    src: url("../fonts/FrancoisOne-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: "FrancoisOne";
+    background-color: black;
+    color: white;
+}
+
+.perfil {
+    display: flex;
+    padding: 1rem;
+}
+
+.imagen {
+    width: 11rem;
+    border-radius: 20rem;
+    z-index: 5;
+    border: .4rem solid black;
+
+}
+
+.perfil__text {
+    background-color: #FFFFFF;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    color: black;
+    padding: 1.1rem;
+    box-sizing: border-box;
+    margin-right: -5rem;
+    padding-right: 5rem;
+}
+
+.columnas__infografia {
+    display: flex;
+    grid-gap: 2rem;
+
+}
+
+.primera__columna {
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.segunda__columna {
+    width: 50%;
+    margin-right: 1rem;
+}
+
+.rayos-nivel {
+    display: flex;
+    grid-gap: 1rem;
+    justify-content: space-between;
+    margin-right: 1rem;
+    width: 12rem;
+
+}
+
+.img__rayos {
+    width: 5rem;
+}

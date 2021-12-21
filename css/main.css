@@ -1,0 +1,187 @@
+/* Fuentes */
+
+@font-face {
+    font-family: "FrancoisOne";
+    src: url("../fonts/FrancoisOne-Regular.woff2") format("woff2");
+}
+
+body {
+    font-family: "FrancoisOne";
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.header__espacio {
+    flex-grow: 1;
+}
+
+.header__rayo {
+    flex-grow: 1;
+}
+
+.header__rayo--derecho {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    transform: translateX(-100vw);
+    transition: .5s;
+}
+
+.nav--show {
+    transform: translateX(0);
+}
+
+.nav__button {
+    text-align: right;
+    margin: 1rem;
+}
+
+.header__button-nav--open {
+    background: none;
+    border: 0;
+    position: fixed;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+}
+
+.header__button-nav--close {
+    background: none;
+    border: 0;
+}
+
+.nav__ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    display: inline;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 10rem;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding-left: 3rem;
+
+}
+
+.nav__link:hover {
+    background-image: url(../img/rayo-recto.png);
+}
+
+.nav__item {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.nav__menu {
+    width: 4rem;
+    height: 4rem;
+}
+
+.header__logo {
+    flex-grow: 3;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.header__logo__imagen {
+    width: 10rem;
+
+}
+
+.hero {
+    font-size: 5rem;
+}
+
+.hero__title {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    font-size: 4rem !important;
+}
+
+.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    font-size: 4rem !important;
+}
+
+.popup {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.popup--cerrar {
+    display: none;
+}
+
+.popup__textos {
+    width: 20rem;
+    padding: 2rem;
+    color: #000000;
+
+}
+
+.primeros__botones {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.botones__color {
+    background-color: black;
+    color:white;
+
+}
+
+.footer {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.footer__nav-img {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+
+}
+

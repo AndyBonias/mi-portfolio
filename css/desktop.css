@@ -1,0 +1,50 @@
+.header__rayo-img {
+    width: 6rem;
+}
+
+.header__rayo-img:hover {
+
+}
+
+.trabajos__portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.perfil__imagen {
+    display: none;
+}
+
+.perfil__text {
+    margin-right: 0;
+    padding-right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 1.5rem;
+
+}
+
+.tercera__columna {
+    width: 25rem;
+}
+
+.ficha__trabajos {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem;
+    padding: 1rem;
+    grid-gap: 1rem;
+
+}
+
+.ficha__texto {
+    width: 75%;
+}
+
+.ficha__imagen {
+    max-width: 30rem;
+}
+
+.popup {
+    margin-bottom: 4rem;
+}
